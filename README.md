@@ -15,6 +15,7 @@ I also recommend downloading other useful extension, such as icon packs. *Rojo U
 
 
 You're then going to your command thing at the top, and enter the Rojo menu. (Tip: press the *>* key and find Rojo there!)
+
 ![image](https://github.com/user-attachments/assets/254784d2-6c4f-4d17-bbca-5e83c2888f6d)
 
 You'll then have to create your project files, if you didn't set them up. (somewhat)
