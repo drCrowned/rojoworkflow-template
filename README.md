@@ -8,7 +8,7 @@ This is the standard Rojo-Roblox Studio Workflow, open for everyone who doesn't 
 ### 2: Setup Stylua and Selene
 
 ## Before proceeding, know these tips!
-Hey, just a reminder that Rojo does delete everything it finds in defined structures. So if it finds an unknown instance not defined in DataModel\ReplicatedStorage\SharedCodebase, it will make them **poof**.
+Hey, just a reminder that Rojo does delete everything it finds in defined structures. So if it finds an unknown instance not defined in DataModel\ReplicatedStorage\SharedCodebase, it will make them **p o o f**.
 
 You don't want that, right? Maybe there are instances, like a sound, that you want to keep in folders next to your scripts. In my case, my characters in Zenless Battlegrounds have accessories for the system to reference, but I don't want the hard work to be drained. That is why I put a *json* file in every necessary folder. You can find the said file under the project structure—*init.meta.json*, to be exact.
 
@@ -23,7 +23,7 @@ Alrighty, now let's get into the real stuff.
 We'll start with getting Rojo into our project. It's pretty straightforward.
 
 First start with installing the Rojo extension in Visual Studio. Search up Rojo in the extension store and you'll find it. *Rojo - Roblox Studio Sync*
-![Screenshot 2024-11-25 215443](https://github.com/user-attachments/assets/fce0eabe-e0bc-4402-9f09-d793ff2ef3bf)
+![image](https://github.com/user-attachments/assets/dff681a3-9ec8-4418-b6b1-46d1ffc0bd0e)
 I also recommend downloading other useful extensions, such as icon packs. *Rojo UI* is broken as I'm typing this, so don't mind it.
 
 
