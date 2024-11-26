@@ -1,0 +1,4 @@
+# To add a new tool, add an entry to this table. Or just tell aftman to do it in the command terminal
+[tools]
+rojo = "rojo-rbx/rojo@7.4.4"
+# rojo = "rojo-rbx/rojo@6.2.0" *this is for people with old rojo or smt idk lol*
