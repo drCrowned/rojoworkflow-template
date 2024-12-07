@@ -46,10 +46,10 @@ You'll then have to create your project files if you didn't set them up. (Somewh
 
 If you want, you can launch *rojo build -0 game.rbxl* into your command terminal to build your game. You'll find a file called *game.rbxl* in your explorer after that!
 
-To sync Roblox Studio and Rojo together, you'll also need the Rojo plugin in your IDE. Start up the Rojo Ext to then, start the Rojo plugin in your IDE.
+You'll also need the Rojo plugin in your IDE to sync Roblox Studio and Rojo together. Start up the Rojo Ext then, start the Rojo plugin in your IDE.
 
 ## Setting up Stylua and Selene
-This is where it becomes optional. You don't really need it, but it's really REALLY useful!
+This is where it becomes optional. You don't need it, but it's really **REALLY** useful!
 
 Get this, you want to read your subordinates' work and provide input on it. Turns out you need to learn another language to see one line of their atrocious code!
 Stylua is the go-to for programmers to enforce styling formats in *✨LOuaU✨* files.
@@ -76,6 +76,17 @@ Create the *selene.toml* file in the root of your project.
 Then throw this in there once created.
 ```
 std = "roblox"
+```
+
+Create a settings.json file under your .vscode folder, and slap this code in it. (You can create one if you don't have one!)
+```
+{
+    "[lua]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    }
+}
 ```
 
 That's it, wasn't so hard right?
@@ -126,7 +137,7 @@ H
 ## Closing Remarks
 Well, this is it! You now have a Rojo-Roblox Studio workflow at your fingertips. You don't have to do everything within VSC, do note that Rojo isn't necessary for Roblox games. It's just a valuable tool for professional developers, big studios, and people who like source control and GitHub.
 
-Thanks to sleitnick (this guy here --> https://www.youtube.com/@sleitnick1) for his amazing *Advanced Roblox Project Setup* video. I still use it for my projects and look up to him as one of my motivations. This guide is basically his video but shorter?
+Thanks to sleitnick (this guy here --> https://www.youtube.com/@sleitnick1) for his amazing *Advanced Roblox Project Setup* video. I still use it for my projects and look up to him as one of my motivations. This guide is his video but shorter?
 
 Any questions can be asked in issues or discussions, I'll be happy to answer them. Just note that I'm still actively learning the whole... "Git thing, CD/CI Pipeline thingy, whatever complicated term out there", so we're in this together!
 
