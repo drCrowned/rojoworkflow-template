@@ -1,8 +1,8 @@
 # Rojo-Roblox Studio Workflow Template
-###### rojoworkflow-template, Not final as it's still under progress!
-This is the standard Rojo-Roblox Studio Workflow, open for everyone who doesn't want to go through creating whole repos and stuff. This tutorial (seen below) assumes that you have knowledge about GitHub and the installation of stuff and have already handled the required resources. This also uses VSC (Visual Studio Code) as its text editor, so if you have anything else, sorry not sorry~
+###### rojoworkflow-template, Not final as it's still ~~in progress~~!
+This is the standard Rojo-Roblox Studio Workflow, open for everyone who doesn't want to go through creating whole repos and stuff. This tutorial assumes that you have knowledge about GitHub and the installation of stuff and have already handled the required resources. This also uses VSC (Visual Studio Code) as its text editor, so if you have anything else, sorry, not sorry...
 
-Guide Completion: 53%
+Guide Completion: 53% (i dont have time to finish this lmao)
 ## Tutorial Outline
 ### 0: Tips!
 ### 1: Setup Rojo
@@ -13,11 +13,11 @@ Guide Completion: 53%
 ### 5: Closing Remarks
 
 ## Before proceeding, know these tips!
-Hey, just a reminder that Rojo does delete everything it finds in defined structures. So, for example, if it finds an unknown instance not defined in DataModel\ReplicatedStorage\SharedCodebase, it will make them **p o o f**.
+Hey, just a reminder that Rojo does delete everything it finds in defined structures. So, for example, if it finds an unknown instance not defined in ReplicatedStorage\SharedCodebase, it will make them **p o o f**.
 
 You don't want that, right? Maybe there are instances, like a sound, that you want to keep in folders next to your scripts. In my case, my characters in Zenless Battlegrounds have accessories for the system to reference, but I don't want the hard work to be drained. That is why I put a *json* file in every necessary folder. You can find the said file under the project structure—*init.meta.json*, to be exact.
 
-Also... How can I say this... VSC is blind when coding Luau files. It doesn't recognize the Roblox LSP natively. So you'll need yet another extension for your collection of 103 plugins. !(I don't have that many extensions...)
+Also... How can I say this... VS Code is blind when coding Luau files. It doesn't recognize the Roblox LSP natively. So you'll need yet another extension for your collection of 103 plugins. !(I don't have that many extensions...)
 
 Search for Roblox LSP in the extension store, then install it. It has everything you can ask for, even compatibility with Rojo!
 ![image](https://github.com/user-attachments/assets/9cd136ac-1416-4136-a8d1-91434ea8fc2f)
@@ -27,12 +27,12 @@ Alrighty, now let's get into the real stuff.
 ## Setting up Rojo (Is it 'Ro-Jo' or 'Ro-Ho'?)
 We'll start with getting Rojo into our project. It's pretty straightforward.
 
-First start with installing the Rojo extension in Visual Studio. Search up Rojo in the extension store and you'll find it. *Rojo - Roblox Studio Sync*
+First, start by installing the Rojo extension in Visual Studio. Search for Rojo in the extension store, and you'll find it. *Rojo - Roblox Studio Sync*
 ![image](https://github.com/user-attachments/assets/dff681a3-9ec8-4418-b6b1-46d1ffc0bd0e)
 I also recommend downloading other useful extensions, such as icon packs. *Rojo UI* is broken as I'm typing this, so don't mind it.
 
 
-You're then going to your command thing at the top and enter the Rojo menu. (Tip: press the *>* key and find Rojo there!)
+You're then going to your command thing at the top and entering the Rojo menu. (Tip: press the *>* key and find Rojo there!)
 
 ![image](https://github.com/user-attachments/assets/254784d2-6c4f-4d17-bbca-5e83c2888f6d)
 
@@ -44,20 +44,20 @@ You'll then have to create your project files if you didn't set them up. (Somewh
 
 #### Ta-Da! Rojo's now in your Repository!
 
-If you want, you can launch *rojo build -0 game.rbxl* into your command terminal to build your game. You'll find a file called *game.rbxl* in your explorer after that!
+If you want, you can launch *rojo build -0 game.rbxl* in your command terminal to build your game. You'll find a file called *game.rbxl* in your explorer after that!
 
-You'll also need the Rojo plugin in your IDE to sync Roblox Studio and Rojo together. Start up the Rojo Ext then, start the Rojo plugin in your IDE.
+You'll also need the Rojo plugin in your IDE to sync Roblox Studio and Rojo together. Start up the Rojo Ext, then start the Rojo plugin in your IDE.
 
 ## Setting up Stylua and Selene
 This is where it becomes optional. You don't need it, but it's really **REALLY** useful!
 
-Get this, you want to read your subordinates' work and provide input on it. Turns out you need to learn another language to see one line of their atrocious code!
+Get this: you want to read your subordinates' work and provide input on it. Turns out you need to learn another language to see one line of their atrocious code!
 Stylua is the go-to for programmers to enforce styling formats in *✨LOuaU✨* files.
 
-Selene, on the other hand, is a linting tool. In simple terms, it reads your code in real time and throws obvious lines at you when you do something bad. For example; repeated lines, voided expressions, unused variables, and more.
+Selene, on the other hand, is a linting tool. In simple terms, it reads your code in real time and throws obvious lines at you when you do something bad. For example, repeated lines, voided expressions, unused variables, and more.
 
 
-Start by installing the Stylua and Selene extensions in VSC. It's pretty straightforward.
+Start by installing the Stylua and Selene extensions in VS Code. It's pretty straightforward.
 ![image](https://github.com/user-attachments/assets/697f9510-64fb-460e-9ef5-91f29a1ddfde)
 ![image](https://github.com/user-attachments/assets/490d3f02-76f6-4d8d-82c9-f9859ec6df58)
 
@@ -89,17 +89,17 @@ Create a settings.json file under your .vscode folder, and slap this code in it.
 }
 ```
 
-That's it, wasn't so hard right?
+That's it, wasn't so hard, right?
 
 
 ## CI Pipeline and Pull Requests
-There is a feature called *Pull Requests* in GitHub, essentially people will request to push their work into the *main/base* branch of your repo, allowing you to review it before making it official. But what if you're too lazy one day? What if you don't want to review 1000 lines of code to find a single error at the end? What if you had the person accidentally send the wrong revision of the code so you have to wait an entire day for them to finally get back on and fix it, to find that you found another error and they have to fix it again, and it breaks the whole script- 
+There is a feature called *Pull Requests* in GitHub; essentially, people will request to push their work into the *main/base* branch of your repo, allowing you to review it before making it official. But what if you're too lazy one day? What if you don't want to review 1000 lines of code to find a single error at the end? What if you had the person accidentally send the wrong revision of the code so you have to wait an entire day for them to finally get back on and fix it, to find that you found another error and they have to fix it again, and it breaks the whole script- 
 
 Ahem, apologies for my outburst. With the CI Pipeline, every time you make a pull request or direct push, it will get checked by the system and will do the work for you!
 
-(There are some stuff you can do to protect your precious repo. Like locking your main branch, having branch protection rules, etc.)
+(There is some stuff you can do to protect your precious repo. Like locking your main branch, having branch protection rules, etc.)
 
-Start with creating a workflow folder. Inside the *.github* folder (if you have one, if not feel free to make one!)
+Start by creating a workflow folder. Inside the *.github* folder (if you have one, if not, feel free to make one!)
 
 ![image](https://github.com/user-attachments/assets/59313c7d-900f-4184-8071-5017abbbc682)
 
@@ -135,10 +135,9 @@ H
 
 
 ## Closing Remarks
-Well, this is it! You now have a Rojo-Roblox Studio workflow at your fingertips. You don't have to do everything within VSC, do note that Rojo isn't necessary for Roblox games. It's just a valuable tool for professional developers, big studios, and people who like source control and GitHub.
+Well, this is it! You now have a Rojo-Roblox Studio workflow at your fingertips. You don't have to do everything within VSC. Do note that Rojo isn't necessary for Roblox games. It's just a valuable tool for professional developers, big studios, and people who like source control and GitHub.
 
-Thanks to sleitnick (this guy here --> https://www.youtube.com/@sleitnick1) for his amazing *Advanced Roblox Project Setup* video. I still use it for my projects and look up to him as one of my motivations. This guide is his video but shorter?
+Thanks to Sleitnick (this guy here --> https://www.youtube.com/@sleitnick1) for his amazing *Advanced Roblox Project Setup* video. I still use it for my projects and look up to him as one of my motivations. This guide is somewhat like his video but shorter?...
 
-Any questions can be asked in issues or discussions, I'll be happy to answer them. Just note that I'm still actively learning the whole... "Git thing, CD/CI Pipeline thingy, whatever complicated term out there", so we're in this together!
-
-Anyway, toodles! I gotta prepare a bowl of cereal.
+Any questions can be asked in issues or discussions; I'll be happy to answer them.
+ok bye, I gotta prepare a bowl of cereal.
